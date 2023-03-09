@@ -1,5 +1,5 @@
-package gymnasticCompetitions.interfaces;
-
+package iesFranciscodelosRios.interfaces;
+import iesFranciscodelosRios.model.Competition;
 public interface iRepoCompetition {
 	boolean addCompetition();
 	boolean modifyCompetition();

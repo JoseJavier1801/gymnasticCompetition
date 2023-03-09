@@ -1,6 +1,6 @@
-package gymnasticCompetititons.model;
+package iesFranciscodelosRios.Enum;
 
-public enum TypeTrial {
+public enum Type {
 	INDIVIDUAL,
     COOP;
 	
@@ -10,8 +10,8 @@ public enum TypeTrial {
      * @param name nombre del tipo introducido por el usuario
      * @return devuelve el Enum si lo ha encontrado. si no devuelvo Null
      */
-    public TypeTrial fromName(String name){
-        for (TypeTrial e: TypeTrial.values()){
+    public Type fromName(String name){
+        for (Type e: Type.values()){
             if(e.name().equalsIgnoreCase(name)){
                 return e;
             }

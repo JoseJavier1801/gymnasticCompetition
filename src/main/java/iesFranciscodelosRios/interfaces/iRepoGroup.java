@@ -1,5 +1,5 @@
-package gymnasticCompetitions.interfaces;
-
+package iesFranciscodelosRios.interfaces;
+import iesFranciscodelosRios.model.Group;
 public interface iRepoGroup {
 	boolean addGroup();
 	boolean modifyGroup();

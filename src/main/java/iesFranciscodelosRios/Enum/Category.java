@@ -1,6 +1,6 @@
-package gymnasticCompetititons.model;
+package iesFranciscodelosRios.Enum;
 
-public enum CategoryTrial {
+public enum Category {
 	PREBENJAMIN,
     BENJAMIN,
     ALEVIN,
@@ -14,8 +14,8 @@ public enum CategoryTrial {
      * @param name nombre del tipo introducido por el usuario
      * @return devuelve el Enum si lo ha encontrado. si no devuelvo Null
      */
-    public CategoryTrial fromName(String name){
-        for (CategoryTrial e: CategoryTrial.values()){
+    public Category fromName(String name){
+        for (Category e: Category.values()){
             if(e.name().equalsIgnoreCase(name)){
                 return e;
             }

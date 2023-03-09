@@ -1,4 +1,4 @@
-package org.example.Interfaces;
+package iesFranciscodelosRios.interfaces;
 
 public interface iGUI {
 

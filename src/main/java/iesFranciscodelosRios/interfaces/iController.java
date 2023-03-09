@@ -1,4 +1,4 @@
-package gymnasticCompetitions.interfaces;
+package iesFranciscodelosRios.interfaces;
 
 public interface iController {
 	

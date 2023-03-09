@@ -1,6 +1,6 @@
-package gymnasticCompetititons.model;
+package iesFranciscodelosRios.Enum;
 
-public enum KitTrial {
+public enum Kit {
 	HOOP,
 	MACES,
 	RIBBON,
@@ -13,8 +13,8 @@ public enum KitTrial {
      * @param name nombre del tipo introducido por el usuario
      * @return devuelve el Enum si lo ha encontrado. si no devuelvo Null
      */
-    public KitTrial fromName(String name){
-        for (KitTrial e: KitTrial.values()){
+    public Kit fromName(String name){
+        for (Kit e: Kit.values()){
             if(e.name().equalsIgnoreCase(name)){
                 return e;
             }
