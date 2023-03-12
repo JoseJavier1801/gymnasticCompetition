@@ -1,6 +1,6 @@
-package org.example.GUI;
+package iesFranciscodelosRios.GUI;
 
-import org.example.Interfaces.iGUI;
+import iesFranciscodelosRios.interfaces.iGUI;
 
 public class Gui implements iGUI {
 
@@ -35,82 +35,94 @@ public class Gui implements iGUI {
     @Override
     public void competitionManager() {
         System.out.println("0. Back\n" +
-                "1. Manage competition\n"+
-                "2. Manage participations\n"+
+                "1. Manage competition\n" +
+                "2. Manage participations\n" +
                 "3. Manage trials");
     }
 
+    /*Esto deberia implementarse en repo_competition*/
     @Override
     public void crudCompetition() {
-        System.out.println("0. Back\n"+
-                "1. Create competition\n"+
-                "2. Competition update\n"+
-                "3. Search competition\n"+
-                "4. Delete competition\n"+
-                "5. Enter trial\n"+
-                "6. Show all competitions");
+        System.out.println("0. Back\n" +
+                "1. Create competition\n" +
+                "2. Competition update\n" +
+                "3. Search competition\n" +
+                "4. Delete competition\n" +
+                "5. Show all competitions");
     }
 
+    /*Esto deberia implementarse dentro de competition*/
     @Override
     public void updateCompetitions() {
-        System.out.println("0. Back\n"+
-                "1. Description\n"+
+        System.out.println("0. Back\n" +
+                "1. Description\n" +
                 "2. Date create\n");
     }
 
+    /*Lo implementaremos en competition para dejar constancia de todos los participantes que
+    participaran en una competicion
+    */
     @Override
     public void crudPaticipations() {
-        System.out.println("0. Back\n"+
-                "1. Create participation\n"+
-                "2. Update participation\n"+
-                "3. Search participation\n"+
-                "4. Delete participation\n"+
+        System.out.println("0. Back\n" +
+                "1. Create participation\n" +
+                "2. Update participation\n" +
+                "3. Search participation\n" +
+                "4. Delete participation\n" +
                 "5. Score");
     }
 
     @Override
     public void updateParticipation() {
-        System.out.println("0. Back\n"+
-                "1. Update dorsal\n"+
-                "2. Update participation\n"+
-                "3. Update hour\n"+
+        System.out.println("0. Back\n" +
+                "1. Update dorsal\n" +
+                "2. Update participation\n" +
+                "3. Update hour\n" +
                 "4. Update score\n");
     }
 
+    /*Este crud deberia implementarse en competition*/
     @Override
     public void crudTrials() {
-        System.out.println("0. Back\n"+
-                "1. Create trial\n"+
-                "2. Update trial\n"+
-                "3. Search trial\n"+
-                "4. Delete trial\n"+
-                "5. Enter participation\n"+
-                "6. Show all participations\n"+
-                "7. Show winner\n");
+        System.out.println("0. Back\n" +
+                "1. Create trial\n" +
+                "2. Update trial\n" +
+                "3. Search trial\n" +
+                "4. Delete trial\n");
     }
 
+    /*Este deberia estar incluido en trial*/
+    public void trial() {
+        System.out.println("0. Back\n" +
+                "1. Enter participation\n" +
+                "2. Show all participations\n" +
+                "4. Score a participant" +
+                "5. Show winner\n");
+    }
+
+    /*Este deberia implementarse en competition*/
     @Override
     public void updateTrial() {
-        System.out.println("0. Back\n"+
-                "1. Update type\n"+
-                "2. Update category\n"+
+        System.out.println("0. Back\n" +
+                "1. Update type\n" +
+                "2. Update category\n" +
                 "3. Update kit");
     }
 
     @Override
     public void crudGroup() {
-        System.out.println("0. Back\n"+
-                "1. Create group\n"+
-                "2. Show groups\n"+
-                "3. Update group\n"+
-                "4. Delete group\n"+
-                "5. Enter gymnast\n"+
+        System.out.println("0. Back\n" +
+                "1. Create group\n" +
+                "2. Show groups\n" +
+                "3. Update group\n" +
+                "4. Delete group\n" +
+                "5. Enter gymnast\n" +
                 "6. Delete Gymnast");
     }
 
     @Override
     public void updateGroup() {
-        System.out.println("0. Back\n"+
+        System.out.println("0. Back\n" +
                 "1. Club");
     }
 }
