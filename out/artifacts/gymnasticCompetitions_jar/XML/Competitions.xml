@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<competitionRepo>
+    <Competition>
+        <name>first</name>
+        <description>primera competicion de prueba</description>
+        <initialDate>2023-03-22T00:00:00+01:00</initialDate>
+        <participations/>
+    </Competition>
+</competitionRepo>

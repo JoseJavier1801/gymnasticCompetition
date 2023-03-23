@@ -1,0 +1,2 @@
+Mar 22, 2023 9:25:43 PM iesFranciscodelosRios.model.Trial addParticipant
+INFO: OK. method addParticipant. it was executed correctly

@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<competitionRepo>
+    <Competition>
+        <name>first</name>
+        <description>primera competicion de prueba</description>
+        <initialDate>2023-03-22T00:00:00+01:00</initialDate>
+        <trials>
+            <type>INDIVIDUAL</type>
+            <category>ALEVIN</category>
+            <kit>HOOP</kit>
+            <participations/>
+        </trials>
+        <trials>
+            <type>COOP</type>
+            <category>ALEVIN</category>
+            <kit>MACES</kit>
+            <participations>
+                <entry>
+                    <key>1</key>
+                    <value>
+                        <dorsalNumber>1</dorsalNumber>
+                        <initialHour>12:30</initialHour>
+                        <points>0</points>
+                        <obj xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="group">
+                            <Name>group1</Name>
+                            <club>
+<name>Group2</name>
+<gymnasts>
+    <DNI>67890123B</DNI>
+    <mail>juanmartinez@gmail.com</mail>
+    <name>Juan</name>
+    <phone>+24 689345678</phone>
+    <cat>BENJAMIN</cat>
+    <Club>Group2</Club>
+</gymnasts>
+<gymnasts>
+    <DNI>78901234X</DNI>
+    <mail>martaperez@yahoo.es</mail>
+    <name>Marta</name>
+    <phone>+34 633456789</phone>
+    <cat>ALEVIN</cat>
+    <Club>Group2</Club>
+</gymnasts>
+                            </club>
+                            <category>ALEVIN</category>
+                        </obj>
+                        <type>COOP</type>
+                    </value>
+                </entry>
+            </participations>
+        </trials>
+        <trials>
+            <type>INDIVIDUAL</type>
+            <category>ALEVIN</category>
+            <kit>MACES</kit>
+            <participations/>
+        </trials>
+        <participations>
+            <entry>
+                <key>1</key>
+                <value>
+                    <dorsalNumber>1</dorsalNumber>
+                    <initialHour>12:30</initialHour>
+                    <points>0</points>
+                    <obj xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="group">
+                        <Name>group1</Name>
+                        <club>
+                            <name>Group2</name>
+                            <gymnasts>
+<DNI>67890123B</DNI>
+<mail>juanmartinez@gmail.com</mail>
+<name>Juan</name>
+<phone>+24 689345678</phone>
+<cat>BENJAMIN</cat>
+<Club>Group2</Club>
+                            </gymnasts>
+                            <gymnasts>
+<DNI>78901234X</DNI>
+<mail>martaperez@yahoo.es</mail>
+<name>Marta</name>
+<phone>+34 633456789</phone>
+<cat>ALEVIN</cat>
+<Club>Group2</Club>
+                            </gymnasts>
+                        </club>
+                        <category>ALEVIN</category>
+                    </obj>
+                    <type>COOP</type>
+                </value>
+            </entry>
+            <entry>
+                <key>2</key>
+                <value>
+                    <dorsalNumber>2</dorsalNumber>
+                    <initialHour>12:30</initialHour>
+                    <points>0</points>
+                    <obj xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="gymnast">
+                        <DNI>23456789D</DNI>
+                        <mail>carlosgonzalez@hotmail.com</mail>
+                        <name>Carlos</name>
+                        <phone>+34 610987654</phone>
+                        <cat>ALEVIN</cat>
+                        <Club>Group1</Club>
+                    </obj>
+                    <type>INDIVIDUAL</type>
+                </value>
+            </entry>
+        </participations>
+        <groups>
+            <Name>group1</Name>
+            <club>
+                <name>Group2</name>
+                <gymnasts>
+                    <DNI>67890123B</DNI>
+                    <mail>juanmartinez@gmail.com</mail>
+                    <name>Juan</name>
+                    <phone>+24 689345678</phone>
+                    <cat>BENJAMIN</cat>
+                    <Club>Group2</Club>
+                </gymnasts>
+                <gymnasts>
+                    <DNI>78901234X</DNI>
+                    <mail>martaperez@yahoo.es</mail>
+                    <name>Marta</name>
+                    <phone>+34 633456789</phone>
+                    <cat>ALEVIN</cat>
+                    <Club>Group2</Club>
+                </gymnasts>
+            </club>
+            <category>ALEVIN</category>
+        </groups>
+        <judge>
+            <DNI>12345678Z</DNI>
+            <mail>anagarcia@gmail.com</mail>
+            <name>Ana</name>
+            <phone>+01 612345678</phone>
+            <password>89</password>
+            <password>148</password>
+            <password>71</password>
+            <password>26</password>
+            <password>187</password>
+            <password>1</password>
+            <password>17</password>
+            <password>42</password>
+            <password>252</password>
+            <password>193</password>
+            <password>129</password>
+            <password>89</password>
+            <password>246</password>
+            <password>204</password>
+            <password>116</password>
+            <password>180</password>
+            <password>245</password>
+            <password>17</password>
+            <password>185</password>
+            <password>152</password>
+            <password>6</password>
+            <password>218</password>
+            <password>89</password>
+            <password>179</password>
+            <password>202</password>
+            <password>245</password>
+            <password>169</password>
+            <password>193</password>
+            <password>115</password>
+            <password>202</password>
+            <password>207</password>
+            <password>197</password>
+        </judge>
+    </Competition>
+</competitionRepo>
